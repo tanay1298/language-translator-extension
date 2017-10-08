@@ -1,0 +1,18 @@
+{
+"manifest_version": 2,
+"name" : "LANGUAGE TRANSLATER",
+"description" : "Translate the selected text in the desired language",
+
+  "version": "1.0",
+  "icons": {
+    "48": "images/language_black_48x48.png",
+    "96": "images/language_black_96x96.png"
+  },
+
+  "permissions" : [
+	"contextMenus"
+	],
+"background": {
+    "scripts": ["ttranslator.js"]
+  }
+}
